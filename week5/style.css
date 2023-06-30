@@ -1,0 +1,34 @@
+.flex-container {
+    border: 1px solid red;
+
+
+}
+
+.flex1,
+.flex2 {
+    border: 1px solid orange;
+    position: relative;
+    display: table-cell;
+}
+
+.flex1 {
+    align-content: center;
+    flex-direction: row;
+}
+
+.flex2 {
+    border: 1px solid darkgreen;
+    height: 200px;
+    align-self: center;
+}
+
+.totalflex {
+    border: 1px solid blue;
+    position: relative;
+}
+
+.footerother {
+    border: 1px solid green;
+    display: table-cell;
+
+}
